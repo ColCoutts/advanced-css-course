@@ -42,6 +42,8 @@ body {
 
 .logo {
   height: 35px;
+  backface-visibility: hidden;
+  transform: scale(1);
 }
 
 .logo:hover {
@@ -63,6 +65,7 @@ in relation to itself so that it centers perfectly */
 
   /* fixes the animation so the text doesn't jump up slightly  */
   backface-visibility: hidden;
+  transform: scale(1);
 }
 
 .heading-primary-main {

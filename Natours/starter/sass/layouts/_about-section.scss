@@ -1,10 +1,29 @@
 .row {
   display: flex;
-  justify-content: space-around;
-  background-color: red;
-  height: 80rem;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  
+  &:not(:last-child) {
+    margin-bottom: 8rem;
+  }
+
   &__col-1-of-2 {
-    // background-color: yellow;
+    padding-left: 5rem;
+
+    &:not(:last-child) {
+      margin-right: 6rem;
+    }
+  }
+  &__col-2-of-2 {
+    display: flex;
+    width: 100%;
+    margin-right: 6rem;
+    position: relative;
+    &:not(:last-child) {
+      margin-right: 6rem;
+    }
   }
 
 }

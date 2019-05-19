@@ -10,7 +10,7 @@
   }
 
   &__col-1-of-2 {
-    padding-left: 5rem;
+    padding-left: 6rem;
 
     &:not(:last-child) {
       margin-right: 6rem;
@@ -19,7 +19,6 @@
   &__col-2-of-2 {
     display: flex;
     width: 100%;
-    margin-right: 6rem;
     position: relative;
     &:not(:last-child) {
       margin-right: 6rem;

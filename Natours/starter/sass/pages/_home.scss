@@ -38,3 +38,14 @@
   display: flex;
   margin: 2.5rem;
 }
+
+.section-tours {
+  background-color: $color-grey-light-1;
+  height: 120vh;
+  margin-top: -10vh;
+}
+
+.tours-container {
+  display: flex;
+  justify-content: space-evenly;
+}
